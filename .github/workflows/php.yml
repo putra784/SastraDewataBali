@@ -25,7 +25,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: 2121
           script: |
-            cd /var/www/testnanda/MorningRise
+            cd /var/www/testarya/SastraDewataBali
             git pull origin master
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
